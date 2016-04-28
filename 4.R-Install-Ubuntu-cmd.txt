@@ -1,0 +1,8 @@
+sudo gedit /etc/apt/sources.list
+deb http://cran.um.ac.ir/bin/linux/ubuntu vivid/
+sudo apt-key adv --keyserver keyserver.ununtu.com --recv-keys E084DAB9
+
+sudo apt-get update 
+sudo apt-get install r-base
+
+cp -R /var/cache/apt/archives/ ~/Downloads/

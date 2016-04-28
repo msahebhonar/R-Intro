@@ -1,0 +1,2 @@
+sudo dpkg -i path
+sudo apt-get install libjpeg62
